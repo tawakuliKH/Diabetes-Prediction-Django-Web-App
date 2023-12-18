@@ -12,14 +12,12 @@
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
-  - [🛠 Built With](#built-with)
   - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
   - [Usage](#usage)
 - [Key Features](#key-features)
-- [🔭 Future Features](#future-features)
 - [👥 Authors](#authors)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
@@ -28,13 +26,11 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Bookstore] <a name="about-project"></a>
+# 📖 Diabetes Predition System <a name="about-project"></a>
 
 **Diabetes Prediction System** is  a Web Application to Predict Diabetes Disease: An Approach Using Machine Learning Algorithm, main aim of this exploration is to build a web application based on the higher prediction accuracy of some powerful machine learning algorithm. We have used a benchmark dataset namely Pima Indian which is capable of predicting the onset of diabetes based on diagnostics manner. With an accuracy of 70% prediction rate Artificial Neural Network (ANN) shows a significant improvement of accuracy which drives us to develop an Interactive Web Application for Diabetes Prediction.
 ![Screenshot](screenshot.png)
 
-
-## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
@@ -54,7 +50,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-<a href="">Watch Live Here</a>
+<a href="">Soon</a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -68,80 +64,42 @@ To get a local copy up and running, follow these steps.
 ### Prerequisites
 
 In order to run this project you need:
+* You need to have Python3 installed.
 
-
->You need to have Python3 installed.
->Make sure Nodejs and NPM is installed in your system for linters.
+Import the following libraries:
+* import pandas as pd
+* import matplotlib.pyplot as plt
+* import seaborn as sns
+* from sklearn.model_selection import train_test_split
+* from sklearn.linear_model import LogisticRegression
+* from sklearn.metrics import accuracy_score
 
 ### Setup
 
 Clone this repository to your desired folder:
 
 ```bash
-git clone https://github.com/tawakuliKH/space-travelers.git
+git clone https://github.com/tawakuliKH/Diabetes-Prediction-Django-Web-App.git
 ```
 2. Open terminal and cd into project
 ```bash
-cd space-travelers
+cd DiabetesPrediction
 ```
 3. Run the project with:
 ```bash
-npm start
+ python3 manage.py runserver
 ```
 
-### Install
-
-Install this project with: linters
-
-To check linters run the following command:
-1. Install WebHint:
-```bash
-npm install --save-dev hint@7.x
-```
-2. Install StyleLint
-```bash
-npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standard@21.x stylelint-csstree-validator@1.x 
-```
-3. Install eslint
-```bash
-npm install --save-dev eslint@7.x eslint-config-airbnb-base@14.x eslint-plugin-import@2.x babel-eslint@10.x 
-```
-## Check Linters Error
-1. To check CSS or SCSS linters error:
-```bash
-npx stylelint "**/*.{css,scss}"
-```
-2. To fix CSS or SCSS linters error:
-```bash
-npx stylelint "**/*.{css,scss}" --fix
-```
-3. To check HTML linters error
-```bash
-npx hint .
-```
-4. To check JavaScript linters error
-```bash
-npx eslint .
-```
-<!-- Features -->
 
 ### Key Features <a name="key-features"></a>
 
-- **[List Rockets]**
-- **[Reserve Rockets]**
-- **[Single page application which makes using easy]**
+- **Diabete Disease Detection**
+- **High Accuracy**
+- **Nice UI**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-## 🔭 Future Features <a name="future-features"></a>
-
-- [ ] **[mobile version functionality]**
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- AUTHORS -->
 
 ## 👥 Authors <a name="authors"></a>
 
@@ -159,7 +117,7 @@ npx eslint .
 ## 🤝 Contributing
 
  Contributions, issues, and feature requests are welcome!
-- Feel free to check the [issues page](https://github.com/ghreza-crypto/to-do-list/issues)
+- Feel free to check the [issues page](https://github.com/tawakuliKH/Diabetes-Prediction-Django-Web-App/issues)
 
 ## ⭐️ Show your support <a name="support"></a>
 
@@ -173,12 +131,18 @@ If you like this project give it a star
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
+### Paper Citation
 
-I would like to thank from Microverse and all of my teammates.
+This project is implemented based on the following paper:
 
-- [Microverse Videos](https://www.youtube.com/watch?v=PrIY8sYwe90&ab_channel=Microversevideos)
-- [Setup Linters](https://questions.microverse.org/t/configure-linters-for-html-and-css/2009)
-- [Mobile First](https://www.mightyminnow.com/2013/11/what-is-mobile-first-css-and-why-does-it-rock/)
+- Author(s): Samrat Kumar Dey, Ashraf Hossain, Md. Mahbubur Rahman
+- Title: Implementation of a Web Application to Predict Diabetes Disease: An Approach Using Machine Learning Algorithm
+- Published in: [IEEE](https://ieeexplore.ieee.org/document/8631968)
+
+
+I would like to express our gratitude to the creators of the datasets used in this project:
+
+- [Pima Indian Dataset](https://www.kaggle.com/datasets/uciml/pima-indians-diabetes-database).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <!-- LICENSE -->
