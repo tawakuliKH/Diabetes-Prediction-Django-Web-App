@@ -67,13 +67,11 @@ In order to run this project you need:
 * You need to have Python3 installed.
 
 Import the following libraries:
-* import pandas as pd
-* import matplotlib.pyplot as plt
-* import seaborn as sns
-* from sklearn.model_selection import train_test_split
-* from sklearn.linear_model import LogisticRegression
-* from sklearn.metrics import accuracy_score
-
+* import pandas
+* import matplotlib
+* import seaborn
+* import sklearn
+  
 ### Setup
 
 Clone this repository to your desired folder:
