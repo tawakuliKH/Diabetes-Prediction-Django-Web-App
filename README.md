@@ -83,7 +83,7 @@ git clone https://github.com/tawakuliKH/Diabetes-Prediction-Django-Web-App.git
 ```
 2. Open terminal and cd into project
 ```bash
-cd DiabetesPrediction
+cd Diabetes-Prediction-Django-Web-App
 ```
 3. Run the project with:
 ```bash
