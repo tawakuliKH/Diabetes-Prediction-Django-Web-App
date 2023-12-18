@@ -64,15 +64,15 @@ To get a local copy up and running, follow these steps.
 ### Prerequisites
 
 In order to run this project you need:
->You need to have Python3 installed.
+* You need to have Python3 installed.
 
 Import the following libraries:
->import pandas as pd
->import matplotlib.pyplot as plt
->import seaborn as sns
->from sklearn.model_selection import train_test_split
->from sklearn.linear_model import LogisticRegression
->from sklearn.metrics import accuracy_score
+* import pandas as pd
+* import matplotlib.pyplot as plt
+* import seaborn as sns
+* from sklearn.model_selection import train_test_split
+* from sklearn.linear_model import LogisticRegression
+* from sklearn.metrics import accuracy_score
 
 ### Setup
 
@@ -93,9 +93,9 @@ cd DiabetesPrediction
 
 ### Key Features <a name="key-features"></a>
 
-- **[Diabete Disease Detection]**
-- **[High Accuracy]**
-- **[Nice UI]**
+- **Diabete Disease Detection**
+- **High Accuracy**
+- **Nice UI**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -135,15 +135,14 @@ If you like this project give it a star
 
 This project is implemented based on the following paper:
 
-- Author(s): [Samrat Kumar Dey, Ashraf Hossain, Md. Mahbubur Rahman]
-- Title: [Implementation of a Web Application to Predict Diabetes Disease: An Approach Using Machine Learning Algorithm]
-- Published in: [IEEE]
-- [https://ieeexplore.ieee.org/document/8631968]
+- Author(s): Samrat Kumar Dey, Ashraf Hossain, Md. Mahbubur Rahman
+- Title: Implementation of a Web Application to Predict Diabetes Disease: An Approach Using Machine Learning Algorithm
+- Published in: [IEEE](https://ieeexplore.ieee.org/document/8631968)
 
 
 I would like to express our gratitude to the creators of the datasets used in this project:
 
-- [Pima Indian Dataset]([link_to_dataset_1](https://www.kaggle.com/datasets/uciml/pima-indians-diabetes-database)).
+- [Pima Indian Dataset](https://www.kaggle.com/datasets/uciml/pima-indians-diabetes-database).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <!-- LICENSE -->
