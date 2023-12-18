@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+        background-size: 400% 400%;
+        animation: gradient 15s ease infinite;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    @keyframes gradient {
+        0% {
+            background-position: 0% 50%;
+        }
+
+        50% {
+            background-position: 100% 50%;
+        }
+
+        100% {
+            background-position: 0% 50%;
+        }
+    }
+
+    .form-style-6 {
+        font: 95% Arial, Helvetica, sans-serif;
+        max-width: 400px;
+        margin: 10px auto;
+        padding: 16px;
+        background: #F7F7F7;
+        border-radius: 20px;
+    }
+
+    .form-style-6 h1 {
+        background: #43D1AF;
+        padding: 20px 0;
+        font-size: 140%;
+        font-weight: 300;
+        text-align: center;
+        color: #fff;
+        margin: -16px -16px 16px -16px;
+    }
+
+    .form-style-6 input[type="text"],
+    .form-style-6 select {
+        -webkit-transition: all 0.30s ease-in-out;
+        -moz-transition: all 0.30s ease-in-out;
+        -ms-transition: all 0.30s ease-in-out;
+        -o-transition: all 0.30s ease-in-out;
+        outline: none;
+        box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        width: 100%;
+        background: #fff;
+        margin-bottom: 1%;
+        border: 1px solid #ccc;
+        padding: 2%;
+        color: #555;
+        font: 95% Arial, Helvetica, sans-serif;
+    }
+
+    .form-style-6 input[type="text"]:focus,
+    .form-style-6 select:focus {
+        box-shadow: 0 0 5px #43D1AF;
+        padding: 3%;
+        border: 1px solid #43D1AF;
+    }
+
+    .form-style-6 input[type="submit"],
+    .form-style-6 input[type="button"] {
+        box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        width: 100%;
+        padding: 2%;
+        background: #43D1AF;
+        border-bottom: 2px solid #30C29E;
+        border-top-style: none;
+        border-right-style: none;
+        border-left-style: none;
+        color: #fff;
+    }
+
+    .form-style-6 input[type="submit"]:hover,
+    .form-style-6 input[type="button"]:hover {
+        background: #2EBC99;
+    }
+
+    .result {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+
+    }
+</style>
+
+<body>
+    <div class="d-flex flex-column justify-content-center w-100 h-100">
+        <h2 class="result">
+            {{result}}
+        </h2>
+        <div class="form-style-6">
+            <h1>Please Enter The Following Information</h1>
+            <form action="result">
+                <input type="text" name="n1" placeholder="Prgnencies" required />
+                <input type="text" name="n2" placeholder="Glucose" required/>
+                <input type="text" name="n3" placeholder="Blood Pressure" required />
+                <input type="text" name="n4" placeholder="Skin Thickness" required/>
+                <input type="text" name="n5" placeholder="Insulin" required/>
+                <input type="text" name="n6" placeholder="BMI" />
+                <input type="text" name="n7" placeholder="Diabetes Pedigre Function" required/>
+                <input type="text" name="n8" placeholder="Age" required/>
+                <input type="submit" value="Check Diabetes" />
+            </form>
+           
+
+        </div>
+        
+    </div>
+    
+</body>
+
+</html>
